@@ -1,0 +1,11 @@
+# healed-imo — project-level robots.txt
+# NOTE: On GitHub Pages user-sites, this file is NOT authoritative. Crawlers
+# only read https://wattsonworks.github.io/robots.txt (the origin root). This
+# file exists for portability (if the project ever moves to its own domain).
+# The authoritative robots.txt already Allow:s this path and references the
+# master sitemap index, which lists this project's sitemap.xml.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://wattsonworks.github.io/healed-imo/sitemap.xml
